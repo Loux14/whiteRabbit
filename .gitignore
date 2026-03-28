@@ -1,0 +1,30 @@
+# Python
+back-end/venv/
+back-end/__pycache__/
+back-end/app/__pycache__/
+back-end/app/routers/__pycache__/
+back-end/*.db
+back-end/.env
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Xcode
+PostMessage/PostMessage.xcodeproj/xcuserdata/
+PostMessage/PostMessage.xcodeproj/project.xcworkspace/xcuserdata/
+PostMessage/*.xcworkspace/xcuserdata/
+PostMessage/DerivedData/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+build/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Docs / local only
+claude/
+Documents-remis/
+xx-other/
+.claude/

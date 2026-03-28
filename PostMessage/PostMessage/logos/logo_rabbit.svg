@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#0A0A0A"/>
+
+  <!-- Body -->
+  <ellipse cx="488" cy="578" rx="152" ry="166"
+           fill="#0A0A0A" stroke="white" stroke-width="20"/>
+
+  <!-- Left ear (back) -->
+  <ellipse cx="505" cy="185" rx="36" ry="120"
+           fill="#0A0A0A" stroke="white" stroke-width="20"/>
+
+  <!-- Right ear (front, slight tilt) -->
+  <ellipse cx="592" cy="178" rx="33" ry="123"
+           transform="rotate(6, 592, 178)"
+           fill="#0A0A0A" stroke="white" stroke-width="20"/>
+
+  <!-- Head (covers bottom of ears + top of body) -->
+  <circle cx="556" cy="362" r="93"
+          fill="#0A0A0A" stroke="white" stroke-width="20"/>
+
+  <!-- Left paw -->
+  <ellipse cx="464" cy="760" rx="42" ry="19"
+           fill="#0A0A0A" stroke="white" stroke-width="20"/>
+
+  <!-- Right paw -->
+  <ellipse cx="562" cy="752" rx="46" ry="19"
+           fill="#0A0A0A" stroke="white" stroke-width="20"/>
+
+  <!-- Eye -->
+  <circle cx="584" cy="346" r="9" fill="white"/>
+
+  <!-- Green X on mouth -->
+  <line x1="530" y1="375" x2="566" y2="411" stroke="#2EF259" stroke-width="16" stroke-linecap="round"/>
+  <line x1="566" y1="375" x2="530" y2="411" stroke="#2EF259" stroke-width="16" stroke-linecap="round"/>
+
+</svg>
