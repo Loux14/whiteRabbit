@@ -72,18 +72,28 @@ L'iPhone et la machine qui fait tourner le serveur doivent être sur le même r�
 2. Configurer la signature Xcode
 
 Ouvrir PostMessage/PostMessage.xcodeproj dans Xcode
+
 Sélectionner la cible PostMessage dans le panneau de gauche
+
 Onglet Signing & Capabilities
+
 Cocher Automatically manage signing
+
 Choisir ton Team (compte Apple Developer)
+
 Modifier le Bundle Identifier : com.tonidentifiant.whiteRabbit
 
 4. Lancer l'app
 Sur simulateur : Cmd+R — se connecte automatiquement à 127.0.0.1
+
 Sur iPhone physique : brancher l'iPhone, le sélectionner comme destination, Cmd+R
+
 Pour déployer sur un iPhone sans compte payant, le certificat de développement expire après 7 jours. Un compte Apple Developer payant (99 $/an) lève cette limitation.
 
 Notes
+
 Le serveur tourne en HTTP (pas HTTPS) — utiliser uniquement sur un réseau local de confiance
+
 Le fichier .env ne doit jamais être commité (déjà dans .gitignore)
+
 La base de données SQLite (messagerie.db) est générée automatiquement au premier lancement
