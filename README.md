@@ -28,7 +28,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-2. Configurer les variables d'environnement
+### 2. Configurer les variables d'environnement
 Créer un fichier .env dans back-end/ :
 
 ```
@@ -47,7 +47,7 @@ Télécharger le fichier .p8 et copier son contenu dans APNS_KEY
 APNS_KEY_ID : l'identifiant de la clé (10 caractères)
 APNS_TEAM_ID : ton Team ID (visible en haut à droite sur developer.apple.com)
 
-3. Lancer le serveur
+### 3. Lancer le serveur
 ```
 cd back-end
 source venv/bin/activate
@@ -55,8 +55,9 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000
 Le serveur tourne sur http://0.0.0.0:8000.
 ```
 
-Application iOS
-1. Configurer l'adresse IP du serveur
+## Application iOS
+
+### 1. Configurer l'adresse IP du serveur
 Dans PostMessage/PostMessage/Network/APIClient.swift, modifier la ligne :
 
 ```
@@ -69,7 +70,7 @@ private let baseURL = "http://192.168.x.x:8000" // ←
 
 L'iPhone et la machine qui fait tourner le serveur doivent être sur le même réseau Wi-Fi.
 
-2. Configurer la signature Xcode
+### 2. Configurer la signature Xcode
 
 Ouvrir PostMessage/PostMessage.xcodeproj dans Xcode
 
@@ -83,7 +84,7 @@ Choisir ton Team (compte Apple Developer)
 
 Modifier le Bundle Identifier : com.tonidentifiant.whiteRabbit
 
-4. Lancer l'app
+### 3. Lancer l'app
 Sur simulateur : Cmd+R — se connecte automatiquement à 127.0.0.1
 
 Sur iPhone physique : brancher l'iPhone, le sélectionner comme destination, Cmd+R
