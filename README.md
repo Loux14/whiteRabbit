@@ -3,6 +3,10 @@
 Application iOS de messagerie sécurisée avec chiffrement de bout en bout post-quantique (ML-KEM + ML-DSA).
 
 ---
+<img width="375" height="667" alt="accueil" src="https://github.com/user-attachments/assets/fc18ea57-fa7b-46bc-93c2-6b959409d56a" />
+
+<img width="375" height="667" alt="chat" src="https://github.com/user-attachments/assets/3046c1d5-33d4-47a5-b5b3-faadfef88ef6" />
+
 
 ## Prérequis
 
