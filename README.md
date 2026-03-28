@@ -91,7 +91,7 @@ Sur iPhone physique : brancher l'iPhone, le sélectionner comme destination, Cmd
 
 Pour déployer sur un iPhone sans compte payant, le certificat de développement expire après 7 jours. Un compte Apple Developer payant (99 $/an) lève cette limitation.
 
-Notes
+## Notes
 
 Le serveur tourne en HTTP (pas HTTPS) — utiliser uniquement sur un réseau local de confiance
 
